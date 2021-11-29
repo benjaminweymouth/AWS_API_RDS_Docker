@@ -1,0 +1,44 @@
+﻿
+@model List<SurveyInfoTable>
+
+<div class="flex flex-wrap">
+    <h1>2021 Financial Survey Results </h1>
+    <p class="lead">Here we provide our Corporate clients with an API-powered list of survey data, to look up the volatility of your preferred stock. Or, add your own.   </p>
+    <a href="@Url.Action("AddSurvey", "SurveyInfoTable")" type="button" class="btn btn-outline-success">Add New Survey</a> <br /><br />
+
+    <table class="table table-striped table-bordered table-sm">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">SurveyId</th>
+                <th scope="col">Full Name</th>
+                <th scope="col"> Amount</th>
+                <th scope="col"> Industry</th>
+                <th scope="col"> RiskTolerance</th>
+                <th scope="col">Crypto Vs stocks?</th>
+                @*<th scope="col">SurveyInfoTableSurveyId</th>*@
+                <th scope="col">StockIdTicker</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+<tr>
+    <td scope="row">@Model[i].surveyId</td>
+    <td>@Model[i].surveyPersonName</td>
+    <td>@Model[i].surveyAmount</td>
+    <td>@Model[i].surveyIndustry</td>
+    <td>@Model[i].surveyRiskTolerance</td>
+    <td>@Model[i].surveyCryptoVsstocks</td>
+    @*<td>@Model[i].surveyInfoTableSurveyId</td>*@
+    <td>@Model[i].stockIdTicker</td>
+    <td>
+        <a href="@Url.Action("ViewSurveyDetails", "SurveyInfoTable", new { surveyId = Model[i].surveyId})" class="btn btn-primary">View</a>
+        @*<a href="@Url.Action("EditMovie", "Home", new { movieId = movie.MovieId})" type="button" class="btn btn-success">Edit</a>*@
+        <a href="@Url.Action("DeleteSurvey", "SurveyInfoTable", new { surveyId = Model[i].surveyId})" type="button" class="btn btn-danger">Delete</a>
+    </td>
+
+</tr>            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+ 
+
+ 
+
+<div>
+    <main role="main" class="container bg">
+        @*<img src="~/images/logo.jpg" alt="ASP.NET" HorizontalAlign="Center" />*@
+        <div class="jumbotron">
+            <h1 class="center" HorizontalAlign="Center">FINTECH ANALYTICS INC. </h1>
+
+            <p class="lead">Our motivation is to provide financial analytics, to help individuals and corporations reach their financial goals. Simply put, our API will be publishing useful survey data, and generating financial recommendations. </p>
+
+
+
+            <a href="@Url.Action("ListOfStocks", "DbdataforStockVolatility")" type="button" class="btn btn-outline-success btn-lg">Go to Stock Info &raquo;</a>
+            <br /> <br />
+            <a href="@Url.Action("ListOfSurveys", "SurveyInfoTable")" type="button" class="btn btn-outline-success btn-lg">Go to Survey Info &raquo;</a>
+        </div>
+
+    </main>
+  
+</div>
+
+<style>
+    body {
+        /* The image used */
+        background-image: url("/images/logo.jpg");
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     
+
+</style>
