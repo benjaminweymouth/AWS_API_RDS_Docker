@@ -32,7 +32,7 @@ Both our Front End and our API Client are deployed on AWS Elastic Beanstalk
 
 ![image](https://user-images.githubusercontent.com/47256041/168895843-e2db81b6-8b61-403e-b444-a752de5cc643.png)
  
-# Futher Information (ppt / slide deck) 
+# Futher Information: Slidedeck
 
 For further information on this project please peruse our slide deck. 
 
