@@ -1,7 +1,8 @@
  ![1](https://user-images.githubusercontent.com/47256041/168893936-0486efd2-d285-4ad9-9253-760aa4517be1.png)
 
 
-# FinTech Analytics Inc: An API Project with Docker, AWS, RDS and ASP.net
+# FinTech Analytics Inc: An API Project
+# Featuring: API client, Docker, AWS, RDS and ASP.net
 This project is to demonstrate an understanding of API's in relation to AWS services and ASP.net core MVC. The project utilizes AWS, API, RDS, Docker, MVC pattern, ASP.net core MVC. Front End, BackEnd and API Integration. (Benjamin Weymouth and Michael Asemota) 
 
 # Core Motivations of this Project & Research Goals: 
