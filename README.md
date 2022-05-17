@@ -16,8 +16,9 @@ Our Backend draws data sources both from individuals and from corporate data set
 
 1) We used AWS RDS and MSSQL Server management studio to import a CSV of real Corporate Data to create an API that shows stock information that includes S&P500 companies and their volatility. 
 2) We used user-generated survey data to populate another AWS RDS / MSSQL Server table to generate survey data on stock preferences. 
+
 Together, these two pipelines provide the core of our data set. 
-![image](https://user-images.githubusercontent.com/47256041/168894205-cfcbb2ba-55a9-4b0e-b0a5-c186e383e792.png)
+ 
 
 
 
