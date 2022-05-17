@@ -28,12 +28,13 @@ Together, these two pipelines provide the core of our data set.
 Our Front End allows for 5 CRUD operations: get, getbyid, put, post and delete. Each controller implements these 5 operations. 
 Our solution file has 3 sections: the Front End, the Class Library and the API Client 
 
-# Both our Front End and our API Client are deployed on AWS Elastic Beanstalk 
+Both our Front End and our API Client are deployed on AWS Elastic Beanstalk 
 
 ![image](https://user-images.githubusercontent.com/47256041/168895843-e2db81b6-8b61-403e-b444-a752de5cc643.png)
  
+# Futher Information (ppt / slide deck) 
 
-
+For further information on this project please peruse our slide deck. 
 
 
 
