@@ -21,7 +21,7 @@ Together, these two pipelines provide the core of our data set.
  
 # Architecture Diagram 
 
-![Architecture Diagram](https://user-images.githubusercontent.com/47256041/168895166-a71a2d00-ac03-4fd4-a533-04c2283f5495.png)
+![Architecture Diagram](https://user-images.githubusercontent.com/47256041/168900782-545289fb-8a8c-4648-a231-30a94a6ea24d.png)
 
 # Front End Client
 
