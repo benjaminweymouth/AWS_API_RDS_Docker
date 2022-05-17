@@ -25,8 +25,9 @@ Together, these two pipelines provide the core of our data set.
 
 # Front End Client
 
-Our Front End allows for 5 CRUD operations: get, getbyid, put, post and delete. Each controller implements these 5 operations. 
-Our solution file has 3 sections: the Front End, the Class Library and the API Client, and both our Front End and our API Client were deployed on AWS Elastic Beanstalk.  
+Our Front End was built in ASP.net using Visual Studio 2019. Our Client allows for 5 CRUD operations: get, getbyid, put, post and delete. Each of our two controllers implements these 5 operations. Thus, the implementation of API actions are acheived through these operations. The front end of our project is built such that an API can be consumed, modified and added to. In this manner, your portfolio preferences can be updated in the AWS cloud. 
+
+Please feel free to download our source code and peruse our code solutions. Our Visual Studio solution file has 3 sections: the Front End, the Class Library and the API Client, and both our Front End and our API Client were deployed on AWS Elastic Beanstalk.  
 
 ![image](https://user-images.githubusercontent.com/47256041/168895843-e2db81b6-8b61-403e-b444-a752de5cc643.png)
  
