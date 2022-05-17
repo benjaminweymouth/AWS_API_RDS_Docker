@@ -36,5 +36,7 @@ Both our Front End and our API Client are deployed on AWS Elastic Beanstalk
 
 For further information on this project please peruse our slide deck. 
 
+Download the slide deck here: https://github.com/benjaminweymouth/AWS_API_RDS_Docker/raw/main/FinTech%20Analytics%20SlideDeck.pptx
+
 
 
