@@ -19,6 +19,9 @@ Our Backend draws data sources both from individuals and from corporate data set
 
 Together, these two pipelines provide the core of our data set. 
  
+# Architecture Diagram 
+
+![Architecture Diagram](https://user-images.githubusercontent.com/47256041/168895166-a71a2d00-ac03-4fd4-a533-04c2283f5495.png)
 
 
 
